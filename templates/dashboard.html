@@ -364,9 +364,9 @@
 
                               function (data) {
                                   tempElement = data['temperature'];
-                                  //console.log(tempElement)
+                                  console.log(tempElement)
                                   return
-                              }).fail(function() { alert('Internal Server Error!'); });
+                              })
                       }
                   });
                   Highcharts.chart('container1', {
