@@ -12,7 +12,6 @@ blinker
 certifi
 cffi
 chardet
-chrome-gnome-shell
 click
 colorama
 command-not-found
