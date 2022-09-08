@@ -9,7 +9,6 @@ bcrypt
 beautifulsoup4
 bleach
 blinker
-Brlapi
 certifi
 cffi
 chardet
