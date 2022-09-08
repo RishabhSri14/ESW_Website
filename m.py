@@ -256,6 +256,6 @@ def random_number():
     z=jsonify(result=random.randint(0,20))
     return render_template("random.html",content=z)
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",port=5000)
 
 
